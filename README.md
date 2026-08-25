@@ -31,8 +31,10 @@ See [more upstream contributions and public review history](UPSTREAM.md).
 
 ## Current work
 
-[`Kaminos`](https://github.com/lyonsno/kaminos) is the convergence surface: a
-WebGPU and Three.js workbench for generating, inspecting, editing, and composing
-local virtual-world artifacts.
+[`Kaminos`](https://github.com/lyonsno/kaminos) is very much a work in progress:
+it is the research bench where I explore the ideas that interest me most right
+now, especially browser-native ML, spatial interfaces, and tools for inspecting
+and shaping generated worlds. The WebGPU inference kit above is the most mature
+reusable component to emerge from that work.
 
 Contact: [n.lyons53@gmail.com](mailto:n.lyons53@gmail.com)
