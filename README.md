@@ -12,7 +12,7 @@ generated worlds.
 - **MLX-LM:** [rotating KV cache support for sliding-attention layers](https://github.com/ml-explore/mlx-lm/pull/949).
 - **MLX serving:** [15 merged contributions to MLX OpenAI Server](https://github.com/cubist38/mlx-openai-server/pulls?q=is%3Apr+author%3Alyonsno+is%3Amerged) and [five merged contributions to oMLX](https://github.com/jundot/omlx/pulls?q=is%3Apr+author%3Alyonsno+is%3Amerged), centered on streaming, tool calls, reasoning parsers, cancellation, cache integrity, and API compatibility.
 
-See [more upstream contributions and public review history](UPSTREAM.md).
+See [the full contribution index, selected reviews, and independent deployment evidence](UPSTREAM.md).
 
 ## Browser-native GPU inference
 

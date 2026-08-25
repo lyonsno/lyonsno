@@ -1,19 +1,8 @@
 # Upstream work
 
-This is a linked index of public upstream contributions and review history.
+More public upstream work, along with selected reviews and independent deployment reports.
 
-Forge state checked: 2026-08-25.
-
-## Selected review history
-
-- MLX Core antialiased upsampling: [independent numerical review](https://github.com/ml-explore/mlx/pull/3677#pullrequestreview-4669282819) and [MLX maintainer approval](https://github.com/ml-explore/mlx/pull/3677#pullrequestreview-4916201375).
-- vLLM-MLX lifecycle-managed residency: [cancellation, state-machine, and API review](https://github.com/waybarrios/vllm-mlx/pull/205#pullrequestreview-4040627389) and [second architecture review](https://github.com/waybarrios/vllm-mlx/pull/205#pullrequestreview-4114070783).
-- MLX-LM rotating cache: [maintainer approval](https://github.com/ml-explore/mlx-lm/pull/949#pullrequestreview-3892969324).
-- oMLX streamed tool-call parsing: [owner review and approval](https://github.com/jundot/omlx/pull/140#pullrequestreview-3928466818).
-
-## Independent deployment evidence
-
-- MLX-LM prompt-cache reuse for thinking models ([PR #1042](https://github.com/ml-explore/mlx-lm/pull/1042), closed in favor of maintainer PR #1072): an independent operator [merged the implementation into his own Qwen3.5-122B deployment](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126231715), [published a 15-turn production benchmark](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126295703), and [performed a separate code audit](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126846828).
+Current as of August 25, 2026.
 
 ## Merged external contributions
 
@@ -62,3 +51,14 @@ Forge state checked: 2026-08-25.
 - [`warmshao/WiLoR-mini#23`](https://github.com/warmshao/WiLoR-mini/pull/23): avoid the MPS bfloat16 cross-kernel path in rotation conversion.
 - [`continuedev/continue#12516`](https://github.com/continuedev/continue/pull/12516): preserve adapter endpoint routing during CLI stream retries.
 - [`BerriAI/litellm#28746`](https://github.com/BerriAI/litellm/pull/28746): preserve input-file blocks while lowering Responses tool output.
+
+## Independent use and deployment
+
+- MLX-LM prompt-cache reuse for thinking models ([PR #1042](https://github.com/ml-explore/mlx-lm/pull/1042), closed in favor of maintainer PR #1072): an independent operator [merged the implementation into his own Qwen3.5-122B deployment](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126231715), [published a 15-turn production benchmark](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126295703), and [performed a separate code audit](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126846828).
+
+## Selected reviews
+
+- MLX Core antialiased upsampling: [independent numerical review](https://github.com/ml-explore/mlx/pull/3677#pullrequestreview-4669282819) and [MLX maintainer approval](https://github.com/ml-explore/mlx/pull/3677#pullrequestreview-4916201375).
+- vLLM-MLX lifecycle-managed residency: [cancellation, state-machine, and API review](https://github.com/waybarrios/vllm-mlx/pull/205#pullrequestreview-4040627389) and [second architecture review](https://github.com/waybarrios/vllm-mlx/pull/205#pullrequestreview-4114070783).
+- MLX-LM rotating cache: [maintainer approval](https://github.com/ml-explore/mlx-lm/pull/949#pullrequestreview-3892969324).
+- oMLX streamed tool-call parsing: [owner review and approval](https://github.com/jundot/omlx/pull/140#pullrequestreview-3928466818).
