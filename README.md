@@ -23,7 +23,7 @@ generated worlds.
 
 ## Apple Silicon ML
 
-- [`mlx-nf4`](https://github.com/lyonsno/mlx-nf4) provides NF4 / NormalFloat4 Metal kernels for MLX; [`mlx-ideogram4`](https://github.com/lyonsno/mlx-ideogram4) exercises them in a 9.3B text-to-image pipeline.
+- [`mlx-nf4`](https://github.com/lyonsno/mlx-nf4) extracts the NF4 work into an installable standalone MLX custom extension with packed 4-bit weights and native Metal matrix multiplication; [`mlx-ideogram4`](https://github.com/lyonsno/mlx-ideogram4) exercises it in a 9.3B text-to-image pipeline.
 - [`wilor-mlx`](https://pypi.org/project/wilor-mlx/) rebuilds WiLoR hand-pose estimation end to end in MLX.
 - [`trellis2mlx`](https://github.com/lyonsno/trellis2mlx) and [`pixal3d-mlx`](https://github.com/lyonsno/pixal3d-mlx) bring image-to-3D generation to Apple Silicon without PyTorch.
 
