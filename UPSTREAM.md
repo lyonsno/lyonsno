@@ -1,17 +1,19 @@
 # Upstream work
 
-This is a linked index of externally hosted contributions from the current
-campaign. It points to the upstream pull requests and review records rather
-than restating their implementation narratives.
+This is a linked index of public upstream contributions and review history.
 
 Forge state checked: 2026-08-25.
 
-## Independent review receipts
+## Selected review history
 
 - MLX Core antialiased upsampling: [independent numerical review](https://github.com/ml-explore/mlx/pull/3677#pullrequestreview-4669282819) and [MLX maintainer approval](https://github.com/ml-explore/mlx/pull/3677#pullrequestreview-4916201375).
 - vLLM-MLX lifecycle-managed residency: [cancellation, state-machine, and API review](https://github.com/waybarrios/vllm-mlx/pull/205#pullrequestreview-4040627389) and [second architecture review](https://github.com/waybarrios/vllm-mlx/pull/205#pullrequestreview-4114070783).
 - MLX-LM rotating cache: [maintainer approval](https://github.com/ml-explore/mlx-lm/pull/949#pullrequestreview-3892969324).
 - oMLX streamed tool-call parsing: [owner review and approval](https://github.com/jundot/omlx/pull/140#pullrequestreview-3928466818).
+
+## Independent deployment evidence
+
+- MLX-LM prompt-cache reuse for thinking models ([PR #1042](https://github.com/ml-explore/mlx-lm/pull/1042), closed in favor of maintainer PR #1072): an independent operator [merged the implementation into his own Qwen3.5-122B deployment](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126231715), [published a 15-turn production benchmark](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126295703), and [performed a separate code audit](https://github.com/ml-explore/mlx-lm/pull/1042#issuecomment-4126846828).
 
 ## Merged external contributions
 

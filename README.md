@@ -12,7 +12,7 @@ generated worlds.
 - **MLX-LM:** [rotating KV cache support for sliding-attention layers](https://github.com/ml-explore/mlx-lm/pull/949).
 - **MLX serving:** [15 merged contributions to MLX OpenAI Server](https://github.com/cubist38/mlx-openai-server/pulls?q=is%3Apr+author%3Alyonsno+is%3Amerged) and [five merged contributions to oMLX](https://github.com/jundot/omlx/pulls?q=is%3Apr+author%3Alyonsno+is%3Amerged), centered on streaming, tool calls, reasoning parsers, cancellation, cache integrity, and API compatibility.
 
-[Browse the 28 merged external PRs from the current campaign and their review receipts.](UPSTREAM.md)
+See [more upstream contributions and public review history](UPSTREAM.md).
 
 ## Browser-native GPU inference
 
@@ -20,10 +20,12 @@ generated worlds.
 - [`moge-webgpu`](https://github.com/lyonsno/moge-webgpu) runs MoGe-2 depth and surface-normal estimation in browser-native compute shaders.
 - [`sharp-webgpu`](https://github.com/lyonsno/sharp-webgpu) turns a single image into 3D Gaussian splats in the browser.
 - [`sf3d-webgpu`](https://github.com/lyonsno/sf3d-webgpu) generates textured 3D meshes in browser-native WebGPU.
+- [`kimodo-webgpu`](https://github.com/lyonsno/kimodo-webgpu) runs NVIDIA's 282M-parameter text-to-motion diffusion transformer in browser WebGPU, with DDIM sampling, denoising, and forward kinematics on the client.
 
 ## Apple Silicon ML
 
 - [`mlx-nf4`](https://github.com/lyonsno/mlx-nf4) extracts the NF4 work into an installable standalone MLX custom extension with packed 4-bit weights and native Metal matrix multiplication; [`mlx-ideogram4`](https://github.com/lyonsno/mlx-ideogram4) exercises it in a 9.3B text-to-image pipeline.
+- [`cosmos3-mlx`](https://github.com/lyonsno/cosmos3-mlx) is a full-source MLX port of NVIDIA's 16B Cosmos 3 Nano world model for text/image-to-video and joint video/audio generation.
 - [`wilor-mlx`](https://pypi.org/project/wilor-mlx/) rebuilds WiLoR hand-pose estimation end to end in MLX.
 - [`trellis2mlx`](https://github.com/lyonsno/trellis2mlx) and [`pixal3d-mlx`](https://github.com/lyonsno/pixal3d-mlx) bring image-to-3D generation to Apple Silicon without PyTorch.
 
