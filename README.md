@@ -24,7 +24,7 @@ See [the full contribution index, selected reviews, and independent deployment e
 
 ## Apple Silicon ML
 
-- [`mlx-nf4`](https://github.com/lyonsno/mlx-nf4) extracts the NF4 work into an installable standalone MLX custom extension with packed 4-bit weights and native Metal matrix multiplication; [`mlx-ideogram4`](https://github.com/lyonsno/mlx-ideogram4) exercises it in a 9.3B text-to-image pipeline.
+- [`mlx-nf4`](https://github.com/lyonsno/mlx-nf4) is a standalone native Metal NF4 extension for stock MLX, verified from a clean source install on M2 Pro and exercised end to end by double-quantized GPT-2 and the 9.3B [`mlx-ideogram4`](https://github.com/lyonsno/mlx-ideogram4) image pipeline.
 - [`cosmos3-mlx`](https://github.com/lyonsno/cosmos3-mlx) is a full-source MLX port of NVIDIA's 16B Cosmos 3 Nano world model for text/image-to-video and joint video/audio generation.
 - [`wilor-mlx`](https://pypi.org/project/wilor-mlx/) rebuilds WiLoR hand-pose estimation end to end in MLX.
 - [`trellis2mlx`](https://github.com/lyonsno/trellis2mlx) and [`pixal3d-mlx`](https://github.com/lyonsno/pixal3d-mlx) bring image-to-3D generation to Apple Silicon without PyTorch.
