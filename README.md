@@ -16,11 +16,15 @@ See [the full contribution index, selected reviews, and independent deployment e
 
 ## Browser-native GPU inference
 
-- [`@kaminos/webgpu-inference-kit`](https://www.npmjs.com/package/@kaminos/webgpu-inference-kit) is a composable WebGPU runtime for tensors, kernels, staged programs, route adapters, and cooperative scheduling.
-- [`moge-webgpu`](https://github.com/lyonsno/moge-webgpu) runs MoGe-2 depth and surface-normal estimation in browser-native compute shaders.
-- [`sharp-webgpu`](https://github.com/lyonsno/sharp-webgpu) turns a single image into 3D Gaussian splats in the browser.
-- [`sf3d-webgpu`](https://github.com/lyonsno/sf3d-webgpu) generates textured 3D meshes in browser-native WebGPU.
-- [`kimodo-webgpu`](https://github.com/lyonsno/kimodo-webgpu) runs NVIDIA's 282M-parameter text-to-motion diffusion transformer in browser WebGPU, with DDIM sampling, denoising, and forward kinematics on the client.
+The [Kaminos WebGPU Inference Kit](https://lyonsno.github.io/kaminos/inference-kit/) brings substantial models into responsive browser applications. Model applications handle loading, queued inference, controls and cleanup, with model-specific options and lower-level APIs available for custom integrations.
+
+- **Image generation:** [FLUX.2 [klein] 4B](https://lyonsno.github.io/kaminos/inference-kit/klein/) runs its text encoder, diffusion transformer and image decoder on the browser's GPU.
+- **Image to 3D:** [TRELLIS 2](https://github.com/lyonsno/kaminos/tree/main/models/trellis2) generates textured meshes with browser-native WebGPU, with a guide to model preparation and asset finishing.
+- **Skeletal animation:** [UniMate](https://lyonsno.github.io/kaminos/inference-kit/unimate/) generates motion for different rigged skeletons from text, with an animated GLB export.
+- **Live hand reconstruction:** [WiLoR and MobRecon](https://lyonsno.github.io/kaminos/inference-kit/hand-mesh/) turn camera frames into hand meshes and landmarks. The demo links to local model setup.
+- **Relightable photographs:** [Material Photograph](https://lyonsno.github.io/kaminos/inference-kit/material-photo/) combines MoGe geometry and SuperMat materials with an interactive renderer on one GPU.
+
+[Build with a model application](https://github.com/lyonsno/kaminos/blob/main/webgpu-inference-kit/docs/model-applications.md), or explore the [full model catalog](https://github.com/lyonsno/kaminos/tree/main/webgpu-inference-kit#one-runtime-different-models), including background removal, segmentation, depth estimation and Gaussian reconstruction. Some ports live in Kaminos and others in standalone repositories; the catalog links to their current source and integration guides.
 
 ## Apple Silicon ML
 
