@@ -7,9 +7,9 @@ generated worlds.
 ## Accepted upstream
 
 - **MLX Core:** [antialiased linear and cubic `nn.Upsample`](https://github.com/ml-explore/mlx/pull/3677) and [compiled-kernel correctness for negative-strided inputs](https://github.com/ml-explore/mlx/pull/3720).
+- **MLX Audio:** [streaming speech generation for VibeVoice](https://github.com/Blaizzy/mlx-audio/pull/925) and [predictor caching for Nemotron speech recognition](https://github.com/Blaizzy/mlx-audio/pull/1006).
 - **WebGPU Samples:** an [external Vision Transformer sample](https://github.com/webgpu/webgpu-samples/pull/570) with interactive attention visualization.
 - **vLLM-MLX:** [lifecycle-managed model residency](https://github.com/waybarrios/vllm-mlx/pull/205), including lazy loading, idle unload, cancellation-safe transitions, and public lifecycle state.
-- **MLX-LM:** [rotating KV cache support for sliding-attention layers](https://github.com/ml-explore/mlx-lm/pull/949).
 - **MLX serving:** [15 merged contributions to MLX OpenAI Server](https://github.com/cubist38/mlx-openai-server/pulls?q=is%3Apr+author%3Alyonsno+is%3Amerged) and [five merged contributions to oMLX](https://github.com/jundot/omlx/pulls?q=is%3Apr+author%3Alyonsno+is%3Amerged), centered on streaming, tool calls, reasoning parsers, cancellation, cache integrity, and API compatibility.
 
 See [the full contribution index, selected reviews, and independent deployment evidence](UPSTREAM.md).

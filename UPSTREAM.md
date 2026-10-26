@@ -2,7 +2,7 @@
 
 More public upstream work, along with selected reviews and independent deployment reports.
 
-Current as of August 25, 2026.
+Index compiled August 25, 2026; MLX Audio entries updated October 25, 2026.
 
 ## Merged external contributions
 
@@ -13,6 +13,8 @@ Current as of August 25, 2026.
 - [`ml-explore/mlx-lm#949`](https://github.com/ml-explore/mlx-lm/pull/949): rotating cache for Step3.5 sliding-attention layers.
 - [`Blaizzy/mlx-vlm#1157`](https://github.com/Blaizzy/mlx-vlm/pull/1157): Qwen3-VL vision-config deserialization correctness.
 - [`Blaizzy/mlx-audio#633`](https://github.com/Blaizzy/mlx-audio/pull/633): Voxtral TTS tokenizer and dependency contract.
+- [`Blaizzy/mlx-audio#925`](https://github.com/Blaizzy/mlx-audio/pull/925): incremental streaming speech generation for VibeVoice.
+- [`Blaizzy/mlx-audio#1006`](https://github.com/Blaizzy/mlx-audio/pull/1006): reuse Nemotron predictor results across blank frames and streaming chunks.
 
 ### MLX serving and lifecycle systems
 
